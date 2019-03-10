@@ -1,0 +1,39 @@
+{
+    "name": "springy-framework/springy",
+    "type": "project",
+    "description": "Springy Framework",
+    "keywords": [
+        "framework",
+        "springy"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fernando Val",
+            "homepage": "https://fval.com.br",
+            "email": "fernando@fval.com.br",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3",
+        "ext-mbstring": "*",
+
+        "springy-framework/core": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

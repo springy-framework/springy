@@ -14,5 +14,5 @@ $startTime = microtime(true);
 // Loads the Composer autoload
 require __DIR__.'/../vendor/autoload.php';
 
-$app = new Springy\Core\Kernel(__DIR__.'/../conf/main.php');
+$app = new Springy\HTTP\Kernel(__DIR__.'/../conf/main.php');
 $app->run($startTime)->send();

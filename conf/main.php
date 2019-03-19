@@ -25,6 +25,11 @@ return [
     ],
 
     /**
+     * The application environment.
+     */
+    'environment' => env('SPRINGY_ENVIRONMENT', 'development'),
+
+    /**
      * The default application charset.
      */
     'charset' => 'UTF-8',
@@ -35,9 +40,9 @@ return [
     'timezone' => 'UTC',
 
     /**
-     * The application environment.
+     * The errors log path.
      */
-    'environment' => env('SPRINGY_ENVIRONMENT', 'development'),
+    'errors_log' => __DIR__.'/../var/log/errors',
 
     /**
      * The configuration files path.

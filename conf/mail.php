@@ -10,6 +10,11 @@ return [
     'driver' => 'phpmailer',
 
     /**
+     * Errors-To header value.
+     */
+    'errors_go_to' => '',
+
+    /**
      * Fake e-mail destination.
      *
      * Tells the application to send all messages to a certain e-mail

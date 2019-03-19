@@ -10,11 +10,6 @@ return [
     'debug' => true,
 
     /**
-     * Mail address to notify about errors in the application.
-     */
-    'errors_go_to' => '',
-
-    /**
      * Authentication driver configuration.
      */
     'authentication' => [

@@ -1,6 +1,6 @@
 <?php
 /**
- * Springy Framework general configuration file.
+ * Springy Framework main configuration file.
  */
 
 return [

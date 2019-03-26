@@ -12,21 +12,13 @@
     # Redirect Trailing Slashes If Not A Folder...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} (.+)/$
-    # RewriteRule ^ %1 [L,R=301]
-    RewriteRule ^ %1 [L,R=302]
+    RewriteRule ^ %1 [L,R=301]
 
-    # Redirect calls to index.php
-    # RewriteCond %{REQUEST_FILENAME} !-d
-    # RewriteCond %{REQUEST_FILENAME} -f
-    # RewriteCond %{REQUEST_URI} ^\/index\.php
-    # # RewriteRule ^ / [L,R=301]
-    # RewriteRule ^ - [F,L]
-    RewriteCond %{REQUEST_FILENAME} -d [OR]
-    RewriteCond %{REQUEST_URI} =/ [OR]
-    RewriteCond %{REQUEST_URI} =/index.php [OR]
-    RewriteCond %{REQUEST_URI} =""
-    RewriteRule ^ index.php [L]
-
+    # RewriteCond %{REQUEST_FILENAME} -d [OR]
+    # RewriteCond %{REQUEST_URI} =/ [OR]
+    # RewriteCond %{REQUEST_URI} =/index.php [OR]
+    # RewriteCond %{REQUEST_URI} =""
+    # RewriteRule ^ index.php [L]
 
     # Translate the request
     RewriteCond %{REQUEST_FILENAME} !-d

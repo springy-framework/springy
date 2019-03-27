@@ -7,6 +7,13 @@ return [
     'default' => 'mysql',
 
     /**
+     * Path to JSON structure files directory.
+     *
+     * Default: 'app/Stuctures'
+     */
+    'model_structures' => __DIR__.'/app/Structures',
+
+    /**
      * Connections.
      */
     'connections' => [

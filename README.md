@@ -1,3 +1,11 @@
+[![StyleCI](https://styleci.io/repos/167616076/shield)](https://styleci.io/repos/167616076)
+[![Latest Stable Version](https://poser.pugx.org/springy-framework/springy/v/stable)](https://packagist.org/packages/springy-framework/springy)
+[![Total Downloads](https://poser.pugx.org/springy-framework/springy/downloads)](https://packagist.org/packages/springy-framework/springy)
+[![License](https://poser.pugx.org/springy-framework/springy/license)](https://packagist.org/packages/springy-framework/springy)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d57dc04cab69407db963353b22f6cc58)](https://www.codacy.com/app/fval/springy_skeleton?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=springy-framework/springy&amp;utm_campaign=Badge_Grade)
+
+[![Latest Unstable Version](https://poser.pugx.org/springy-framework/springy/v/unstable)](https://packagist.org/packages/springy-framework/springy)
+
 # About Springy
 
 A micro framework for smart PHP developers.

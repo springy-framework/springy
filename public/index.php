@@ -6,7 +6,6 @@
  * @author    Fernando Val <fernando@fval.com.br>
  * @license   https://github.com/fernandoval/Springy/blob/master/LICENSE MIT
  */
-
 $startTime = microtime(true);
 
 // Loads the Composer autoload

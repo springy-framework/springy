@@ -1,7 +1,7 @@
 <?php
 
 return [
-    /**
+    /*
      * The session engine driver.
      *
      * 'Standard'
@@ -12,31 +12,31 @@ return [
      */
     'engine' => 'Standard',
 
-    /**
+    /*
      * The session id cookie name.
      */
     'name' => 'SPSESSID',
 
-    /**
+    /*
      * The session cookie domain.
      */
     'domain' => '',
 
-    /**
+    /*
      * Session expiration time in minutes.
      *
      * Value used by Memcached session driver.
      */
     'expires' => 60,
 
-    /**
+    /*
      * Session server host.
      *
      * Value used by Memcached session driver.
      */
     'host' => 'localhost',
 
-    /**
+    /*
      * Session servir service port.
      *
      * Value used by Memcached session driver.

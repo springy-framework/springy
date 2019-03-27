@@ -1,7 +1,7 @@
 <?php
 
 return [
-    /**
+    /*
      * Application debug mode.
      *
      * When the application is in debug mode, erros messages, debug traces
@@ -11,13 +11,13 @@ return [
      */
     'debug' => true,
 
-    /**
+    /*
      * Authentication driver configuration.
      *
      * @var array
      */
     'authentication' => [
-        /**
+        /*
          * Password hasher.
          *
          * A string with full namespace of the password hasher class
@@ -30,7 +30,7 @@ return [
          */
         'hasher' => 'Springy\Security\BCryptHasher',
 
-        /**
+        /*
          * Authentication driver.
          *
          * A Springy\Security\AuthDriver object
@@ -47,7 +47,7 @@ return [
             return new AuthDriver($hasher, $user);
         },
 
-        /**
+        /*
          * Authentication identity.
          *
          * A string with full namespace of the authentication identity class
@@ -58,7 +58,7 @@ return [
          */
         'identity' => null,
 
-        /**
+        /*
          * Authentication credential to grant access to the internal console terminal.
          *
          * This is a array with user name (index 0) and password (index 1).

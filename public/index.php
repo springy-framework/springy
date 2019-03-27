@@ -5,8 +5,6 @@
  * @copyright 2007 Fernando Val
  * @author    Fernando Val <fernando@fval.com.br>
  * @license   https://github.com/fernandoval/Springy/blob/master/LICENSE MIT
- *
- * @package   Springy
  */
 
 $startTime = microtime(true);

@@ -12,20 +12,20 @@
  */
 
 return [
-    /**
+    /*
      * The application configuration.
      *
      * @var array
      */
     'app' => [
-        /**
+        /*
          * The application name.
          *
          * @var string
          */
         'name' => 'Springy',
 
-        /**
+        /*
          * The application version.
          *
          * An array with major, minor and revision integers
@@ -35,7 +35,7 @@ return [
          */
         'version' => [1, 0, 0],
 
-        /**
+        /*
          * The project code name.
          *
          * @var string
@@ -43,7 +43,7 @@ return [
         'code_name' => 'Alpha',
     ],
 
-    /**
+    /*
      * The application environment.
      *
      * Can be setted in system environment variable or local.
@@ -52,7 +52,7 @@ return [
      */
     'environment' => env('SPRINGY_ENVIRONMENT', 'development'),
 
-    /**
+    /*
      * The default application charset.
      *
      * Default: 'UTF-8'
@@ -61,7 +61,7 @@ return [
      */
     'charset' => 'UTF-8',
 
-    /**
+    /*
      * The system time zone.
      *
      * Default: 'UTC'
@@ -70,14 +70,14 @@ return [
      */
     'timezone' => 'UTC',
 
-    /**
+    /*
      * The errors log folder path.
      *
      * @var string
      */
     'errors_log' => __DIR__.'/../var/log/errors',
 
-    /**
+    /*
      * The webmaster email to report about application errors.
      *
      * If the value is an array, will send the alert for all
@@ -87,7 +87,7 @@ return [
      */
     'errors_reporting' => env('WEBMASTER_EMAIL', ''),
 
-    /**
+    /*
      * List of errors that should not be logged nor reported.
      *
      * @var array
@@ -98,7 +98,7 @@ return [
         Springy\Exceptions\Http503Error::class,
     ],
 
-    /**
+    /*
      * The configuration folder path.
      *
      * Default: current folder

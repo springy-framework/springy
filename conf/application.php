@@ -44,7 +44,7 @@ return [
             $hasher = $data['user.auth.hasher'];
             $user = $data['user.auth.identity'];
 
-            return new AuthDriver($hasher, $user);
+            return new Springy\Security\AuthDriver($hasher, $user);
         },
 
         /*

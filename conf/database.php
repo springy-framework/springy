@@ -11,7 +11,7 @@ return [
      *
      * Default: 'app/Stuctures'
      */
-    'model_structures' => __DIR__.'/app/Structures',
+    'model_structures' => __DIR__.'/../app/Structures',
 
     /*
      * Connections.

@@ -53,6 +53,17 @@ return [
     'environment' => env('SPRINGY_ENVIRONMENT', 'development'),
 
     /*
+     * Environments by host.
+     *
+     * You can set a specific environment configuration by host using
+     * this array configuration where the key is a PCRE string with
+     * the host and the value is the environment.
+     *
+     * @var array
+     */
+    'environments' => [],
+
+    /*
      * The default application charset.
      *
      * Default: 'UTF-8'
@@ -93,9 +104,21 @@ return [
      * @var array
      */
     'unreportable_errors' => [
-        Springy\Exceptions\Http403Error::class,
-        Springy\Exceptions\Http404Error::class,
-        Springy\Exceptions\Http503Error::class,
+        Springy\Exceptions\HttpErrorBadRequest::class,
+        Springy\Exceptions\HttpErrorConflict::class,
+        Springy\Exceptions\HttpErrorForbidden::class,
+        Springy\Exceptions\HttpErrorGone::class,
+        Springy\Exceptions\HttpErrorImaTeapot::class,
+        Springy\Exceptions\HttpErrorLengthRequired::class,
+        Springy\Exceptions\HttpErrorMethodNotAllowed::class,
+        Springy\Exceptions\HttpErrorNotAcceptable::class,
+        Springy\Exceptions\HttpErrorNotFound::class,
+        Springy\Exceptions\HttpErrorPreconditionFailed::class,
+        Springy\Exceptions\HttpErrorPreconditionRequired::class,
+        Springy\Exceptions\HttpErrorServiceUnavailable::class,
+        Springy\Exceptions\HttpErrorTooManyRequests::class,
+        Springy\Exceptions\HttpErrorUnauthorized::class,
+        Springy\Exceptions\HttpErrorUnsupportedMediaType::class,
     ],
 
     /*

@@ -11,7 +11,7 @@ return [
      *
      * Default: 'app/Stuctures'
      */
-    'model_structures' => __DIR__.'/../app/Structures',
+    'model_structures' => __DIR__ . '/../app/Structures',
 
     /*
      * Connections.
@@ -49,7 +49,10 @@ return [
             /*
              * Migration scripts directory.
              */
-            'migration_dir' => __DIR__.'/../migrations/mysql',
+            'migration' => [
+                'dir' => __DIR__ . '/../migrations/mysql',
+                'namespace' => 'App',
+            ],
         ],
 
         /*
@@ -74,12 +77,12 @@ return [
             /*
              * Databae user password.
              */
-            'password' => env('DB_PASS', ''),
+            'password' => env('DB_PASS', '123'),
 
             /*
              * Database name.
              */
-            'database' => env('DB_NAME', ''),
+            'database' => env('DB_NAME', 'test'),
 
             /*
              * Database schema

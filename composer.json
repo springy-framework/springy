@@ -19,10 +19,18 @@
         "php": ">=7.1.3",
         "ext-mbstring": "*",
 
-        "springy-framework/core": "dev-master"
+        "springy-framework/core": "5.0.0-dev"
     },
     "require-dev": {
-        "phpunit/phpunit": "~6.0"
+        "phpunit/phpunit": "~6.0",
+
+        "smarty/smarty": "~3.1",
+        "sendgrid/sendgrid": "~7"
+    },
+    "suggest": {
+        "smarty/smarty": "Use Smarty v3.x template engine if you like it",
+        "twig/twig": "Use Twig v2.x template engine if you prefer it",
+        "sendgrid/sendgrid": "We recommend SendGrid SDK v7.x to send transactional email messages"
     },
     "config": {
         "optimize-autoloader": true,

@@ -2,30 +2,32 @@
 
 return [
     /*
-     * URI routes.
+     * Default namespace for controllers.
+     *
+     * @var string
+     */
+    'namespace' => 'App\\Controllers\\Web\\',
+
+    /*
+     * Default URI routes.
      *
      * @var array
      */
     'routes' => [],
 
     /*
-     * URI namespaces.
+     * Default namespaces by URI segments.
      *
      * @var array
      */
-    'namespaces' => [],
+    'segments' => [
+        '/api' => 'App\\Controllers\\Api',
+    ],
 
     /*
-     * HTTP host namespaces.
+     * Routing configuration by HTTP host.
      *
      * @var array
      */
-    'hostings' => [],
-
-    /*
-     * Default namespace for controllers.
-     *
-     * @var string
-     */
-    'namespace' => 'App\\Controllers\\Web\\',
+    'hosts' => [],
 ];

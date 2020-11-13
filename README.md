@@ -2,7 +2,7 @@
 [![Latest Stable Version](https://poser.pugx.org/springy-framework/springy/v/stable)](https://packagist.org/packages/springy-framework/springy)
 [![Total Downloads](https://poser.pugx.org/springy-framework/springy/downloads)](https://packagist.org/packages/springy-framework/springy)
 [![License](https://poser.pugx.org/springy-framework/springy/license)](https://packagist.org/packages/springy-framework/springy)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d57dc04cab69407db963353b22f6cc58)](https://www.codacy.com/app/fval/springy_skeleton?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=springy-framework/springy&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e225c7cf2b5a4843be3ab0e1c9844029)](https://www.codacy.com/gh/springy-framework/springy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=springy-framework/springy&amp;utm_campaign=Badge_Grade)
 
 [![Latest Unstable Version](https://poser.pugx.org/springy-framework/springy/v/unstable)](https://packagist.org/packages/springy-framework/springy)
 

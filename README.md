@@ -1,8 +1,8 @@
-[![StyleCI](https://styleci.io/repos/167616076/shield)](https://styleci.io/repos/167616076)
 [![Latest Stable Version](https://poser.pugx.org/springy-framework/springy/v/stable)](https://packagist.org/packages/springy-framework/springy)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e225c7cf2b5a4843be3ab0e1c9844029)](https://www.codacy.com/gh/springy-framework/springy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=springy-framework/springy&amp;utm_campaign=Badge_Grade)
+[![StyleCI](https://github.styleci.io/repos/167616076/shield)](https://styleci.io/repos/167616076)
 [![Total Downloads](https://poser.pugx.org/springy-framework/springy/downloads)](https://packagist.org/packages/springy-framework/springy)
 [![License](https://poser.pugx.org/springy-framework/springy/license)](https://packagist.org/packages/springy-framework/springy)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e225c7cf2b5a4843be3ab0e1c9844029)](https://www.codacy.com/gh/springy-framework/springy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=springy-framework/springy&amp;utm_campaign=Badge_Grade)
 
 [![Latest Unstable Version](https://poser.pugx.org/springy-framework/springy/v/unstable)](https://packagist.org/packages/springy-framework/springy)
 
@@ -11,6 +11,8 @@
 A micro framework for smart PHP developers.
 
 > **WARNING!** This project is still a work in progress.
+>
+> **Note** This project was not yet tested in PHP 8.
 
 Springy is a micro [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) framework for coders who work with the [PHP](http://www.php.net) language to develop web applications.
 
@@ -18,7 +20,7 @@ It was created based upon the KISS principle in which the simplicity is the base
 
 ## Requirements
 
--   PHP 7.2+
+-   PHP 7.3+
 -   [Composer](https://getcomposer.org/) Dependency Manager for PHP
 
 ## Language dependencies

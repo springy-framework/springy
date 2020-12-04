@@ -1,6 +1,6 @@
 [![Latest Stable Version](https://poser.pugx.org/springy-framework/springy/v/stable)](https://packagist.org/packages/springy-framework/springy)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e225c7cf2b5a4843be3ab0e1c9844029)](https://www.codacy.com/gh/springy-framework/springy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=springy-framework/springy&amp;utm_campaign=Badge_Grade)
-[![StyleCI](https://github.styleci.io/repos/167616076/shield)](https://styleci.io/repos/167616076)
+[![StyleCI](https://github.styleci.io/repos/167616076/shield?style=flat)](https://styleci.io/repos/167616076)
 [![Total Downloads](https://poser.pugx.org/springy-framework/springy/downloads)](https://packagist.org/packages/springy-framework/springy)
 [![License](https://poser.pugx.org/springy-framework/springy/license)](https://packagist.org/packages/springy-framework/springy)
 

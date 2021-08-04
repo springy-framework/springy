@@ -37,9 +37,16 @@ return [
     'host' => 'localhost',
 
     /*
-     * Session servir service port.
+     * Session server service port.
      *
      * Value used by Memcached session driver.
      */
     'port' => 11211,
+
+    /*
+     * Session cookie secure.
+     *
+     * Boolean: true|false
+     */
+    'secure' => true,
 ];

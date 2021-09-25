@@ -11,7 +11,7 @@
 $startTime = microtime(true);
 
 // Loads the Composer autoload
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php'; // phpcs:ignore
 
 $kernel = Springy\Core\Kernel::getInstance(__DIR__ . '/../conf/main.php');
 $app = Springy\HTTP\System::getInstance();
